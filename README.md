@@ -16,7 +16,7 @@ Automatically optimizes images used in Nuxt.js projects (JPEG, PNG, SVG, WebP an
 
 ## Features
 
-Image sizes can often get reduced up to 60%, but this is not the only thing `@bazzite/nuxt-optimized-images` does:
+Image sizes can often get reduced up to 60%, but this is not the only thing `@nassosyian/nuxt-optimized-images` does:
 
 * **Reduces image size** by optimizing images during build.
 * Improves loading speed by providing **progressive images** (for formats that support it).
@@ -35,21 +35,21 @@ Image sizes can often get reduced up to 60%, but this is not the only thing `@ba
 
 
 ```bash 
-npm install @bazzite/nuxt-optimized-images
+npm install @nassosyian/nuxt-optimized-images
 ```
 
 or
 
 ```bash 
-yarn add @bazzite/nuxt-optimized-images
+yarn add @nassosyian/nuxt-optimized-images
 ```
 
-Add `@bazzite/nuxt-optimized-images` to modules section of nuxt.config.js:
+Add `@nassosyian/nuxt-optimized-images` to modules section of nuxt.config.js:
 
 ```js
 {
   modules: [
-    '@bazzite/nuxt-optimized-images',
+    '@nassosyian/nuxt-optimized-images',
   ],
 
   optimizedImages: {
